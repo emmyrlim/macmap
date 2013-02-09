@@ -244,12 +244,8 @@ var initFilterBar = function() {
                         people = circle.getAttrs()['people'],
                 		mousePos = stage.getMousePosition(),
                         text = "";
-                    console.log(circle.getAttrs());
-                    tooltip.setPosition(mousePos.x + 10, mousePos.y + 10);
-                    tooltipRect.setPosition(mousePos.x + 10, mousePos.y + 10);
-                    tooltipRect.setWidth(tooltip.getWidth());
-                    tooltipRect.setHeight(tooltip.getHeight());
-                	text = eventName + "\nStarting at: " + startTime + "\nEnding at: " + endTime + "\nParticipants: ";
+
+                    text = eventName + "\nStarting at: " + startTime + "\nEnding at: " + endTime + "\nParticipants: ";
                     $(people).each(function(ind) {
                         if (ind == $(people).size()-1) {
                             text += this.name;
@@ -258,6 +254,21 @@ var initFilterBar = function() {
                         }
                     });
                     tooltip.setText(text);
+
+                    var xPos = mousePos.x + 10;
+                    var yPos = mousePos.y + 10;
+                    if (yPos + tooltip.getHeight() + 10 > height) {
+                        yPos -= (yPos + tooltip.getHeight() + 10) - height;
+                    }
+                    if (xPos + 350 > width) {
+                        xPos -= 370;
+                    }
+                    tooltip.setPosition(xPos, yPos);
+                    tooltipRect.setPosition(xPos, yPos);
+                    tooltipRect.setWidth(tooltip.getWidth());
+                    tooltipRect.setHeight(tooltip.getHeight());
+
+
                 	tooltip.show();
                     tooltipRect.show();
                 	tooltipLayer.draw();
