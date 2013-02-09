@@ -21,9 +21,9 @@ class EventController {
         }
         }
         if (eventList.size()>0){
-            render (eventList) as JSON
+            return (eventList) as JSON
         }else{
-            render "No events now"
+            return "No events now"
         }
     }
     def getEventsByPerson(String pers){
@@ -41,9 +41,9 @@ class EventController {
             }
         }
         if (eventList.size()>0){
-            render (eventList) as JSON
+            return (eventList) as JSON
         }else{
-            render "No events for "+pers.name+ " now"
+            return "No events for "+pers.name+ " now"
         }
 
     }
