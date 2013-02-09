@@ -12,8 +12,12 @@ class EventController {
         Date d
         String where=params.where
         String[] eventList=new String()[]
+
+        String t = params.when
+        t = t.split("T")[0].split("-")[0] + " " + t.split("T")[0].split("-")[1] + " " + t.split("T")[0].split("-")[2] + " " +t.split("T")[1].split(":")[0] + " " + t.split("T")[1].split(":")[1]
+
         if (params.when!=null){
-            d = new Date().parse("dd MM yyyy HH:mm", params.when)
+            d = new Date().parse("yyyy MM dd HH mm", t)
         }else{
             d = new Date()
         }
@@ -21,7 +25,8 @@ class EventController {
             end.after(d) && start.before(d)
         }
 
-        return results as JSON
+        def formattedResults = [events:[event: [eventName: results.eventName, start: results.start, end: results.end, place: results.place, people:results.people]]]
+        render  formattedResults as JSON
 
         /*for(Event e: events){
 
