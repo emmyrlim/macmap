@@ -2,9 +2,10 @@ import org.macmap.Event
 import org.macmap.Person
 import org.macmap.Place
 import org.macmap.User
+import org.macmap.GoogleCalenderService
 
 class BootStrap {
-
+    GoogleCalenderService googleCalenderService
     def init = { servletContext ->
         Place or241 = new Place(name: "Classroom", number:241).save(failOnError: true)
         Place or243 = new Place(name: "Classroom", number:243).save(failOnError: true)
@@ -109,7 +110,16 @@ class BootStrap {
 
         Person aaronP = new Person(name: "Aaron").save()
         User aaron=new User(userName: "aaron", whoID: aaronP.id, calURL: "https://www.google.com/calendar/ical/lvdtrmnnubk55ebu7npuin1ojc%40group.calendar.google.com/private-0d5e8933c8e4901ab3a33f12d359722e/basic.ics", userID: 1, userPass: "laursen").save()
+//http://www.google.com/calendar/ical/macalester.edu_26uu1hu7vpbdmiecfuo9o61ehc%40group.calendar.google.com/public/basic.ics
+        //The document has moved <A HREF="https://www.google.com/calendar/ical/macalester.edu_26uu1hu7vpbdmiecfuo9o61ehc%40group.calendar.google.com/private-b8202f08b6baa7049fc00249cebae87c/basic.ics">here</A>.
 
+        Person jacobS = new Person(name: "Jacob").save()
+        Person bobS = new Person(name: "Jacob").save()
+        User jacob=new User(userName: "jstein",whoID: jacobS.id, calURL: "https://www.google.com/calendar/ical/macalester.edu_26uu1hu7vpbdmiecfuo9o61ehc%40group.calendar.google.com/private-b8202f08b6baa7049fc00249cebae87c/basic.ics",userID: 2,userPass: "macMap").save()
+        User bob=new User(userName: "bsaget",whoID: bobS.id, calURL: "https://www.google.com/calendar/ical/macalester.edu_n3ghkumtmcjc0va0ivroq4nkmc%40group.calendar.google.com/private-1717c1559ac18efb005e3d23a505a7d4/basic.ics",userID: 3,userPass: "macMap").save()
+
+        googleCalenderService.importCalender(jacob)
+        googleCalenderService.importCalender(bob)
 
 
     }
