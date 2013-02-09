@@ -12,8 +12,8 @@ if (typeof jQuery !== 'undefined') {
 
 	var o = $({}),
 		roomCoords = {
-			"241" : [0,0],
-	        "243" : [0,0],
+			"241" : [458,150],
+	        "243" : [526,150],
 	        "245" : [0,0],
 	        "247" : [0,0],
 	        "249" : [0,0],
@@ -63,12 +63,12 @@ if (typeof jQuery !== 'undefined') {
 	        "281" : [158,75],
 	        "278" : [119,107],
 	        "280" : [158,115],
-	        "276" : [0,0],
+	        "276" : [142,158],
 	        "274B" : [0,0],
 	        "274A" : [0,0],
 	        "274" : [0,0],
-	        "272" : [0,0],
-	        "270" : [0,0],
+	        "272" : [216,165],
+	        "270" : [268,165],
 	        "288A" : [0,0],
 	        "288" : [0,0],
 	        "288B" : [0,0],
@@ -135,7 +135,6 @@ if (typeof jQuery !== 'undefined') {
 		        when: now.toJSON()
 		    },
 		    success: function(data) {
-                console.log(data);
 		        $.publish("getEvents", data)
 		    },
 		    error: function(request, status, error) {
@@ -148,14 +147,10 @@ if (typeof jQuery !== 'undefined') {
 	// should be 300000
 
 	//TEMPDATA
-	var people = [[142,158], [258,165]];
+	var people = [[526,150], [568,150]];
 
 	$.subscribe("getEvents", function(e, results){
-		$('#events').html(
-			$.map( results, function (obj, index){
-				return '<li>' + obj.text + '</li>';
-			}).join('')
-		);
+		console.log(results['events']['event']);
 	});
 
 	function drawMap(){
