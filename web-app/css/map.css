@@ -12,6 +12,7 @@
 }
 #filterBar{
     float:left;
+    margin-left: 20px;
 }
 #filterContainer{
     align: left;
@@ -31,14 +32,12 @@ div#container{
 #main {
 	margin: auto;
   margin-top: 2px;
-  width: 90%;
 	/*background: lightblue;*/
 }
 
 
 
 .wrapper {
-    width: 40%;
     margin: 0 5%;
 }
 

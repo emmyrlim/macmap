@@ -30,14 +30,15 @@
 			<div id="main">
 
 
-				<button id="createEvent">Create new event</button>
-                <g:if test="${!session.user}"><button id="loginButton">Log in</button></g:if>
-                <g:if test="${session.user}"><br><g:link controller="User" action="logout">Log Out</g:link></g:if>
-                <g:if test="${session.user}"><br><g:link controller="User" action="getCal">Import Calender</g:link></g:if>
-				<div id="events"></div>
+
 
                 <div id="wrapMap">
                     <div id="filterBar">
+                        <button id="createEvent">Create new event</button>
+                        <g:if test="${!session.user}"><button id="loginButton">Log in</button></g:if>
+                        <g:if test="${session.user}"><br><g:link controller="User" action="logout">Log Out</g:link></g:if>
+                        <g:if test="${session.user}"><br><g:link controller="User" action="getCal">Import Calender</g:link></g:if>
+                        <div id="events"></div>
                         <table id="searchTable">
                             <tr class="right">
                                 <td>
