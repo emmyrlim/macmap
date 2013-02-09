@@ -4,6 +4,8 @@ import grails.converters.JSON
 
 class EventController {
 
+    EventService eventService
+
     def index() { }
 
     def getEventsByTime() {
@@ -58,15 +60,21 @@ class EventController {
 
     }
 
-
     def makeEvent() {
-        def who = params.who
-        def where = params.where
-        def what = params.what
-        def when = params.when
+        def who = params.who as String
+        def where = params.where as String
+        def what = params.what as String
 
-        render(status: 400, text: "fail!")
-//        render(status: 200, text: "woot!")
+        def start = new Date().parse("dd MM yyyy HH:mm", params.start as String)
+        def end = new Date().parse("dd MM yyyy HH:mm", params.end as String)
+
+        def status = eventService.createEvent(who, what, where, start, end)
+
+        if (status) {
+            render(status: 200, text: "successfully created event")
+        } else {
+            render(status: 400, text: "failed to create event")
+        }
     }
 
 }
