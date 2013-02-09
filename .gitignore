@@ -1,0 +1,3 @@
+// Ignore some bad stuff
+*.iml
+.idea/
