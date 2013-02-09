@@ -13,7 +13,7 @@ class EventController {
         String where=params.where
         String[] eventList=new String()[]
         if (params.when!=null){
-            d = new Date().parse("dd MM yyyy, HH:mm", params.when)
+            d = new Date().parse("dd MM yyyy HH:mm", params.when)
         }else{
             d = new Date()
         }
