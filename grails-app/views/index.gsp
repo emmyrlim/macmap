@@ -17,7 +17,7 @@
 		<title>Macmap</title>
 
 	</head>
-	<body>
+	<body onmousedown="return false;">
 		<div id="page-body" role="main">
 			<div class="header-container">
 	            <header class="wrapper clearfix">
