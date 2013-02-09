@@ -101,7 +101,8 @@ if (typeof jQuery !== 'undefined') {
 	        "271A" : [0,0],
 	        "271" : [0,0],
 	        "298" : [0,0]
-		};
+		},
+		timeInMins = 5;
 
 
 
@@ -152,7 +153,7 @@ if (typeof jQuery !== 'undefined') {
 
 	}
 
-	setInterval (makeCall, 1000*60*5);
+	setInterval (makeCall, 1000*60*timeInMins);
 
 	$.subscribe("getEvents", function(e, results){
 		$('#container').empty();
@@ -180,7 +181,8 @@ if (typeof jQuery !== 'undefined') {
 			});
 
         var putPeople = function() {
-            var peopleLayer = new Kinetic.Layer();
+            var peopleLayer = new Kinetic.Layer(),
+            	tooltipLayer = new Kinetic.Layer();
             $.each(activeCoords, function(key, val){
                 var circle = new Kinetic.Circle({
                     x: stage.getWidth()/685 * val[0],
@@ -188,26 +190,48 @@ if (typeof jQuery !== 'undefined') {
                     radius: width*0.010,
                     fill: 'red',
                     stroke: 'black',
-                    strokeWidth: 1
+                    strokeWidth: 1,
+                    draggable: true
                 });
                 circle.setAttrs({
                     "eventName":events[key]['eventName'],
                     "location":events[key]['place'],
-                    "partic":events[key]["people"],
+                    "people":events[key]["people"],
                     "start":events[key]["start"],
                     "end":events[key]["end"]
                 });
 
                 circle.on('mouseover', function() {
-                    console.log(circle.getAttrs()['start']);
+                    var eventName = circle.getAttrs()['eventName'],
+                		mousePos = stage.getMousePosition();
+                    document.body.style.cursor = 'pointer';
+                    tooltip.setPosition(mousePos.x + 5, mousePos.y + 5);
+                	tooltip.text = eventName;
+                	tooltip.show();
+                	tooltipLayer.draw();
                 });
                 circle.on('mouseout', function(){
-                    console.log("mouseout");
+                    document.body.style.cursor = 'default';
+                    tooltip.hide();
+                	tooltipLayer.draw();
+                    // console.log("mouseout");
                 });
 
                 peopleLayer.add(circle);
+                var tooltip = new Kinetic.Text({
+                	text: "",
+	                fontFamily: "Calibri",
+	                fontSize: 12,
+	                padding: 5,
+	                textFill: "white",
+	                fill: "black",
+                	alpha: 0.75,
+                	visible: false
+            	});
+            	tooltipLayer.add(tooltip);
             });
             stage.add(peopleLayer);
+            stage.add(tooltipLayer);
         };
 
         var mapLayer = new Kinetic.Layer();
