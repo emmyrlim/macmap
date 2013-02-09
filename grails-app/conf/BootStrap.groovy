@@ -1,6 +1,7 @@
 import org.macmap.Event
 import org.macmap.Person
 import org.macmap.Place
+import org.macmap.User
 
 class BootStrap {
 
@@ -105,7 +106,8 @@ class BootStrap {
         e.addToPeople(new Person(name: "Slave Rat #2"))
         e.save(failOnError: false)
 
-
+        User aaron=new User(userName: "aaron", who: new Person(name: "Aaron").save(), calURL: "https://www.google.com/calendar/feeds/lvdtrmnnubk55ebu7npuin1ojc%40group.calendar.google.com/private-0d5e8933c8e4901ab3a33f12d359722e/basic", userID: 1, userPass: "laursen")
+        aaron.save()
 
 
 

@@ -17,6 +17,7 @@ class GoogleCalenderService {
         BufferedReader input = new BufferedReader(new InputStreamReader(url.openStream()));
         String line = input.readLine();
         while (!line.equals(null)){
+            System.println(line)
             if (line.equals("BEGIN:VEVENT")){
                 eventData=["DTSTART":"", "DTEND":"", "UID":"", "DESCRIPTION":"", "LOCATION":"", "SUMMARY":""]
             }
@@ -26,6 +27,7 @@ class GoogleCalenderService {
             if (eventData.containsKey(line.split(":",2)[0])){
                 eventData.put(line.split(":",2)[0], line.split(":",2)[1])
             }
+            line =input.readLine();
         }
     }
 
