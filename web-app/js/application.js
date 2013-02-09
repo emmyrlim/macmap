@@ -112,6 +112,14 @@ if (typeof jQuery !== 'undefined') {
         dialog.css("visibility","visible");
 	});
 
+    $("#loginButton").on("click", function(){
+        var login = $("#login");
+        login.dialog({
+            draggable: false
+        });
+        login.css("visibility","visible");
+    });
+
 	$.each({
 		trigger: 'publish',
 		on: 'subscribe',
