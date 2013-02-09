@@ -17,7 +17,8 @@
 
 	</head>
 	<body onmousedown="return false;">
-		<div id="page-body" role="main">
+	<div class=main>
+    <div id="page-body" role="main">
 			<div class="header-container">
 	            <header class="wrapper clearfix">
 	                <h1 class="title">MacMap</h1>
@@ -109,6 +110,11 @@
             <g:submitButton name="Submit" vale="submit" />
         </form>
     </div>
-
-	</body>
+    <div class=footer-container>
+    <footer class="wrapper clearfix">
+        <h3 class="title">Prototype created by:<br/> Aaron Laursen, Brandon Maus, Emmy Lim, Jacob Stein, Scott Tong</h3>
+    </footer>
+    </div>
+    </div>
+    </body>
 </html>
