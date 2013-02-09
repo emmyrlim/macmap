@@ -1,6 +1,6 @@
 package org.macmap
 import grails.converters.JSON
-
+import java.util.concurrent.atomic.AtomicInteger
 
 class EventController {
 
@@ -74,7 +74,11 @@ class EventController {
         def status = eventService.createEvent(who, what, where, start, end)
 
         if (status) {
-            render(status: 200, text: "successfully created event")
+            def counter = new AtomicInteger()
+//            render(status: 200, text: "successfully created event")
+
+            redirect(url:request.getHeader("referer"))
+
         } else {
             render(status: 400, text: "failed to create event")
         }

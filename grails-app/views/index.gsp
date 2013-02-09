@@ -12,7 +12,6 @@
             visibility: hidden;
         }
         </style>
-
 		<meta name="layout" content="main"/>
 		<title>Macmap</title>
 
