@@ -35,7 +35,7 @@ class EventController {
             return "No events now"
         }*/
     }
-    def getEventsByPerson(Set<String> peeps){
+    def getEventsByPerson(){
 //        def events=Event.findAll()
 //        ArrayList<String> eventList=new ArrayList<String>()
 //        for(Event e: events){
@@ -49,6 +49,7 @@ class EventController {
 //                }
 //            }
 //        }
+        peeps = params.peeps;
         Set<Event> results= new HashSet();
         for (e in Event.findAll()){
             for (p in e.people){
