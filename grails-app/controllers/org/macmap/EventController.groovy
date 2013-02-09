@@ -6,7 +6,7 @@ class EventController {
 
     def index() { }
 
-    def getEvents() {
+    def getCurrentEvents() {
          def events=Event.list()
         ArrayList<String> eventList=new ArrayList<String>()
         Date d=new Date()
@@ -23,7 +23,27 @@ class EventController {
         if (eventList.size()>0){
             render (eventList) as JSON
         }else{
-            render ""
+            render "No events now"
+        }
+    }
+    def getEventsByPerson(String pers){
+        def events=Event.list()
+        ArrayList<String> eventList=new ArrayList<String>()
+        for(Event e: events){
+            for(Person person: e.getPeople()){
+                if (person.name.equals(pers)){
+                    String s=e.getEventName()+" "+e.getStart()+ " "+e.getEnd()+" "+ e.getPlace().name
+                    for(Person p: e.getPeople()){
+                        s+=" "+p.name
+                    }
+                eventList.add(s)
+                }
+            }
+        }
+        if (eventList.size()>0){
+            render (eventList) as JSON
+        }else{
+            render "No events for "+pers.name+ " now"
         }
 
     }
