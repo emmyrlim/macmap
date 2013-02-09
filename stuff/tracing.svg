@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="426.8313"
-     inkscape:cy="628.10119"
+     inkscape:zoom="5.6"
+     inkscape:cx="628.15222"
+     inkscape:cy="413.05704"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -6297,374 +6297,652 @@ MiqjOByobAyccdP8/wCAp0sSIpYDkAn6miigBroq7wOiDcB+GMfT/PTipvs0J5aNGJ6kqMmiigD/
        style="stroke:#ff0000" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 19.950513,277.82772 0.631345,356.33131 55.55839,-0.12627 0.126269,-8.71257 20.076782,0 0.757615,42.80522 265.756226,-0.0489 0.0402,12.0445 -20.32936,0.25254 c 28.76784,17.90716 57.17806,17.93339 85.23162,0.12627 l -20.32932,0 0.12627,-12.75318 262.38713,0 -0.25254,-44.69925 -2.27284,-2.0203 -0.26895,-14.69493 -0.85951,-1.29917 -0.12854,-12.03764 35.09711,0 0.75761,-184.60538 -35.86042,-0.25253 0.25254,-9.59645 -230.31478,0.25254 -0.50507,28.78934 -27.77115,0.0472 -0.35714,-25.98214 -46.42857,0 0,25.35714 -30.71429,0.35714 0.35715,-4.64286 -76.66092,-0.18725 0,4.04061 -36.3655,-0.50508 0.50508,-87.50446 26.89531,0 0.37881,-60.48288 -7.19734,0 0,4.67195 -20.45559,0.12627 -0.12627,-4.79822 z"
+       d="m 19.950513,277.82772 0.631345,356.33131 55.55839,-0.12627 0.126269,-8.71257 20.076782,0 0.757615,42.80522 265.756226,-0.0489 0.0402,12.0445 -20.32936,0.25254 c 28.76784,17.90716 57.17806,17.93339 85.23162,0.12627 l -20.32932,0 0.12627,-12.75318 262.38713,0 -0.25254,-44.69925 -2.27284,-2.0203 -0.26895,-14.69493 -0.85951,-1.29917 -0.12854,-12.03764 35.09711,0 0.75761,-184.60538 -35.86042,-0.25253 0.25254,-9.59645 -230.31478,0.25254 -0.50507,28.78934 -27.77115,0.0472 -0.35714,-25.98214 -46.42857,0 0,25.35714 -30.71429,0.35714 -0.0217,-4.64286 -76.28211,-0.18725 0,4.04061 -36.3655,-0.50508 0.50508,-87.50446 26.89531,0 0.37881,-60.48288 -7.19734,0 0,4.67195 -20.45559,0.12627 -0.12627,-4.79822 z"
        id="path3045"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 33.571429,291.29075 170.714281,0.35715 0,167.14285 -170.714281,0.35715 z"
        id="path3047"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 188.92857,458.79075 0,-55 15.35714,-0.35714"
        id="path3049"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="ccc" />
     <path
-       style="stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill:none"
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 133.57143,459.1479 0.35714,-43.21429 54.64286,0.35714"
        id="path3051"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 156.78571,416.29075 0.35715,-86.42857 47.14285,0.35714 -65.35714,-0.35714 0.0446,12.09821 -16.83036,0.0446 0,-50.71429 0.35714,168.21429"
        id="path3053"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 33.214286,409.1479 122.5,409.86218"
        id="path3055"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 33.571429,389.50504 122.5,389.1479"
        id="path3057"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 33.571429,340.21932 88.571431,0"
        id="path3059"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 156.78571,371.29075 47.85715,0.35715"
        id="path3061"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 217.5,283.07647 0,55.35714"
        id="path3063"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 217.5,426.11218 0,31.96429 113.39286,0 -0.32044,-11.0482 c -16.32855,0.1102 -18.29959,-17.83743 -0.25254,-19.95051"
        id="path3065"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 33.587572,472.02954 0.505076,120.4607 88.262082,0 0,-120.08189"
        id="path3067"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 122.73353,472.78716 33.587572,472.40835"
        id="path3071"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 33.75,550.04075 88.57143,0"
        id="path3073"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 33.571429,494.50504 89.107141,-0.17857"
        id="path3075"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 58.33631,550.1901 0.378807,42.4264"
        id="path3077"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 122.32143,563.96932 14.82143,0 0,28.57143 194.46428,0 0,-120.53571 -194.46428,0 0,92.32143"
+       d="m 137.14286,563.96932 0,28.57143 194.46428,0 0,-120.53571 -194.46428,0 0,92.32143"
        id="path3079"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 137.00194,550.5689 194.7069,0 -23.73858,0.12627 0,41.79507 -58.21004,0 0,-42.09234 -56.72451,0 0,42.05357 0,-41.875 -3.48214,0 0,-78.21429"
        id="path3085"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="ccccccccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 245.65647,472.09268 0,78.22369 16.54125,0 0,-77.97115"
        id="path3089"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 246.09841,524.17867 15.65737,0"
        id="path3091"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 96.595837,633.14888 573.009033,0"
        id="path3093"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 119.375,633.16575 0,34.46429"
        id="path3095"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 138.75,633.43361 0,34.46429"
        id="path3097"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 158.21429,633.25504 0,34.375"
        id="path3099"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 177.32143,633.43361 0,34.30197"
        id="path3101"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 196.42857,633.25504 0,34.375"
        id="path3103"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 215.35714,633.47825 0,34.32812"
        id="path3105"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 235.13393,667.67468 0,-34.36797"
        id="path3107"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 254.65314,633.46455 0,34.25048"
        id="path3109"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 274.38269,667.68347 0,-34.37676"
        id="path3111"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 293.00737,633.27514 0,34.44418"
        id="path3113"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 311.875,633.07647 0,34.82143"
        id="path3115"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 360.17857,633.34432 0,34.55358"
        id="path3117"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 409.28572,633.25504 0,34.36529"
        id="path3119"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 457.63393,633.38897 0,34.19643"
        id="path3121"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 476.792,633.30671 0,34.25049"
        id="path3123"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 496.23744,633.14888 0,34.47145"
        id="path3125"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 515.68288,633.27514 0,34.34519"
        id="path3127"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 534.6548,633.36985 0,34.15578"
        id="path3129"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 553.39286,633.25504 0,34.19643"
        id="path3131"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 572.23214,633.43361 0,34.46429"
        id="path3133"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 591.33929,633.34432 0,34.19643"
        id="path3135"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 610.26786,633.25504 0,34.28571"
        id="path3137"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 629.73214,633.43361 0,34.28571"
        id="path3139"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 648.57143,633.43361 0,34.01786"
        id="path3141"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 330.76182,452.26843 30.55712,0 0,-24.93814 0,13.38453 46.53015,0 0,-12.70986 0,25.27363 27.06163,0 0,-25.60391 0,31.51786 19.77678,0 -0.17857,-6.875 12.1875,0.0893 0.0893,6.78571 20.51818,-0.1894 -0.0316,-5.90308 11.64831,-0.0316 1e-5,6.12405 33.11405,0 -0.0631,-6.69226 12.18496,-0.0316 0.0631,6.18719 19.47713,-0.16744 -0.0957,-5.82538 11.64975,-0.1028 0.0944,6.23249 7.26061,0.0319 -3.3e-4,-6.01741 12.18594,-0.0316 0.0625,5.9445 20.23434,-0.0566 -0.0316,-5.45615 11.8153,-0.0661 0.0171,5.91664 6.39102,0.0253 -0.007,-6.08785 12.31109,-0.085 0.0631,5.94229 19.53093,-0.0706 1.01889,134.21314"
        id="path3143"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccc" />
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 274.91072,472.09432 0,21.33929 56.78571,0 -27.41071,0 0,-21.07143"
        id="path3147"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 20.581858,606.44297 100.400282,0 0,14.7585 -24.665448,0 0.03349,4.17934"
        id="path3149"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 437.38074,506.27647 -0.0893,21.78591 218.80263,0.53571 0,-56.94735 -218.8243,0 0.0893,24.01501 c 4.91435,0.25406 5.88367,9.23209 0.0217,10.61072 z"
        id="path3151"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccc" />
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 437.23214,495.66575 c -7.60514,-1.24445 -10.21971,10.34614 0.0893,10.80357"
        id="path3155"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 437.39605,508.52131 13.63706,0 0,-20.70813 70.45814,0 0,-16.41498 0,16.35184 -24.33836,0 0,-15.78363 0,15.78363 -20.51872,0 0,-15.7205 0,15.8152 -19.46899,0 0,-15.97363 0,15.94207 -19.43767,0"
        id="path3157"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccccccccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 534.19643,471.78182 0,56.29465"
        id="path3159"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 553.8477,471.95063 0,56.316"
        id="path3161"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 639.8685,471.84014 0,8.681 -14.4578,0 0,47.82441"
        id="path3163"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 625.7895,492.6114 30.05204,0"
        id="path3165"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 519.72349,398.79348 0,60.23035"
        id="path3167"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 575.15561,452.58411 0,-53.91689"
        id="path3171"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 626.86279,453.21545 0,-54.23256"
        id="path3173"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 665.16967,458.86599 0,-2.76213 9.42855,0 0,-47.67025"
        id="path3175"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 76.26116,606.44701 0,19.24107"
        id="path3177"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 665.53572,471.73718 35.9375,0"
        id="path3179"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 665.75893,489.99611 35.625,0"
        id="path3181"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 665.89286,511.46932 35.3125,0"
        id="path3183"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 666.33929,552.98718 34.77678,0"
        id="path3185"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 181.70119,329.97684 0,-19.00349 22.53903,0"
        id="path3187"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 656.07143,543.5229 0,58.43752 -220.44314,0 0,-58.46258 25.38008,0 0,5.83994 12.40594,0 0,-5.96621 58.2416,0 0,5.74524 12.3428,0 0,-5.4927 38.32272,0 0,5.25593 12.41071,0 0,-5.08929 39.41965,0 0,5.04465 12.14285,0 -0.0446,-5.22321 c 2.06845,0 7.70833,-0.0447 9.77678,-0.0447"
        id="path3189"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 591.82312,601.83415 0,-52.71734"
        id="path3191"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 543.99871,549.27465 0,52.46253"
        id="path3193"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 489.64286,543.61218 0,58.16964"
        id="path3195"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 460.98214,549.32647 0,52.41071"
        id="path3197"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 489.50893,581.51397 -28.39286,0"
        id="path3199"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 372.67857,520.93361 0,4.82143 23.57143,0 0,-4.64286 z"
        id="path3201"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="ccccc" />
     <path
        sodipodi:type="arc"
        style="fill:none;stroke:#ff0000"
@@ -6674,7 +6952,10 @@ MiqjOByobAyccdP8/wCAp0sSIpYDkAn6miigBroq7wOiDcB+GMfT/PTipvs0J5aNGJ6kqMmiigD/
        sodipodi:rx="2.5892856"
        sodipodi:ry="2.5892856"
        d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z"
-       transform="translate(7.5,-5.3571429)" />
+       transform="translate(7.5,-5.3571429)"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        transform="translate(30.446443,7.7678603)"
        sodipodi:type="arc"
@@ -6684,7 +6965,10 @@ MiqjOByobAyccdP8/wCAp0sSIpYDkAn6miigBroq7wOiDcB+GMfT/PTipvs0J5aNGJ6kqMmiigD/
        sodipodi:cy="478.88004"
        sodipodi:rx="2.5892856"
        sodipodi:ry="2.5892856"
-       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z" />
+       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        transform="translate(-15.446415,36.160718)"
        sodipodi:type="arc"
@@ -6694,7 +6978,10 @@ MiqjOByobAyccdP8/wCAp0sSIpYDkAn6miigBroq7wOiDcB+GMfT/PTipvs0J5aNGJ6kqMmiigD/
        sodipodi:cy="478.88004"
        sodipodi:rx="2.5892856"
        sodipodi:ry="2.5892856"
-       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z" />
+       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        transform="translate(-15.446414,7.9464321)"
        sodipodi:type="arc"
@@ -6704,7 +6991,10 @@ MiqjOByobAyccdP8/wCAp0sSIpYDkAn6miigBroq7wOiDcB+GMfT/PTipvs0J5aNGJ6kqMmiigD/
        sodipodi:cy="478.88004"
        sodipodi:rx="2.5892856"
        sodipodi:ry="2.5892856"
-       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z" />
+       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        transform="translate(30.446443,36.160717)"
        sodipodi:type="arc"
@@ -6714,7 +7004,10 @@ MiqjOByobAyccdP8/wCAp0sSIpYDkAn6miigBroq7wOiDcB+GMfT/PTipvs0J5aNGJ6kqMmiigD/
        sodipodi:cy="478.88004"
        sodipodi:rx="2.5892856"
        sodipodi:ry="2.5892856"
-       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z" />
+       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        transform="translate(7.2321568,49.553575)"
        sodipodi:type="arc"
@@ -6724,224 +7017,447 @@ MiqjOByobAyccdP8/wCAp0sSIpYDkAn6miigBroq7wOiDcB+GMfT/PTipvs0J5aNGJ6kqMmiigD/
        sodipodi:cy="478.88004"
        sodipodi:rx="2.5892856"
        sodipodi:ry="2.5892856"
-       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z" />
+       d="m 379.64284,478.88004 a 2.5892856,2.5892856 0 1 1 -5.17857,0 2.5892856,2.5892856 0 1 1 5.17857,0 z"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 439.6689,621.27958 188.14091,0 0,-13.63706 28.22113,0 0,-5.42957"
        id="path3251"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       style="fill:#ff0000;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#808080;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 31.875,613.70147 6.160714,0 0,4.01785 5,0 0,5.26786 5.267858,0 0,4.73214 5.535714,0 0,3.92858 -7.232143,0 -14.642859,-14.64286 z"
        id="path3253"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 56.964285,613.22571 0,15.43112"
        id="path3255"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 52.589286,619.1479 4.375,-6.60715 4.456241,6.69643"
        id="path3257"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 67.95045,628.70848 0,-15.43112"
        id="path3255-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 63.575451,622.78629 4.375,6.60715 4.456241,-6.69643"
        id="path3257-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 96.339286,621.20147 0,-14.64286"
        id="path3280"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 76.428572,625.13004 96.25,606.46932"
        id="path3282"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 76.428572,606.55861 19.553571,18.39286"
        id="path3284"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <path
-       style="fill:#ff0000;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#808080;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 443.70536,609.28182 3.39286,0 0,3.03572 3.08035,0 0,3.125 3.39286,0 0,3.08036 -3.52679,0 -6.40625,-6.40625 z"
        id="path3290"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.80019957px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 462.46749,617.44508 0,-12.34798"
        id="path3255-2-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.80019957px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 458.96662,612.70614 3.50087,5.28704 3.56588,-5.35848"
        id="path3257-2-4"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       style="fill:#ff0000;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#808080;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 302.40157,611.3912 3.39286,0 0,3.03572 3.08035,0 0,3.125 3.39286,0 0,3.08036 -3.52679,0 -6.40625,-6.40625 z"
        id="path3290-7"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.80019957px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 321.1637,608.29029 0,12.34798"
        id="path3255-2-6-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.80019957px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 317.66283,613.02923 3.50087,-5.28704 3.56588,5.35848"
        id="path3257-2-4-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 330.71429,605.3979 -57.41072,0 0,17.14285 57.32143,0"
        id="path3337"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccc" />
     <path
-       style="fill:#ff0000;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#666666;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 219.7788,286.3354 6.16071,0 0,4.01785 5,0 0,5.26786 5.26786,0 0,4.73214 5.53571,0 0,3.92858 -7.23214,0 -14.64286,-14.64286 z"
        id="path3253-3"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 225.93951,313.0025 0,15.43112"
        id="path3255-4"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 221.56451,318.92469 4.375,-6.60715 4.45624,6.69643"
        id="path3257-4"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 236.92568,328.48527 0,-15.43112"
        id="path3255-2-4"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 232.55068,322.56308 4.375,6.60715 4.45624,-6.69643"
        id="path3257-2-9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.64476031px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#808080;stroke:#ff0000;stroke-width:0.64476031000000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 329.19939,431.05795 3.97218,0 0,2.59055 3.2238,0 0,3.3965 3.39651,0 0,3.0511 3.56921,0 0,2.53299 -4.663,0 -9.44114,-9.44113 z"
        id="path3253-4"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.64476031px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 345.37596,430.7512 0,9.94937"
        id="path3255-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.64476031px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 342.55514,434.56959 2.82082,-4.26003 2.87321,4.31759"
        id="path3257-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.64476031px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 352.45941,440.73387 0,-9.94937"
        id="path3255-2-0"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.64476031px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 349.63858,436.91548 2.82083,4.26003 2.87321,-4.3176"
        id="path3257-2-0"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.64833069px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#666666;stroke:#ff0000;stroke-width:0.64833068999999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 672.77551,496.3877 3.99417,0 0,2.60489 3.24166,0 0,3.41532 3.41531,0 0,3.06799 3.58898,0 0,2.54702 -4.68883,0 -9.49341,-9.49342 z"
        id="path3253-40"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cccccccccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.64833069px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 689.04166,496.07925 0,10.00446"
        id="path3255-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.64833069px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 686.20522,499.91878 2.83644,-4.28361 2.88912,4.3415"
        id="path3257-0"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.64833069px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 696.16433,506.1172 0,-10.00447"
        id="path3255-2-08"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.64833069px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 693.32788,502.27766 2.83645,4.28362 2.88911,-4.3415"
        id="path3257-2-7"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 368.39001,401.63454 0,-6.25032 c 4.29354,-0.18138 4.94224,3.10396 5.93464,5.93464 0.21684,-4.32229 2.87425,-6.00003 5.33487,-5.77681 l 0,5.90308"
        id="path3399"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 389.30804,401.55861 0,-6.62947 c 5.09248,1.17045 5.02122,4.904 5.69196,6.4509 -0.21247,0.35214 0.26808,-5.72713 5.625,-6.40626 l 0,6.51786"
        id="path3405"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 368.30357,440.62111 0,-6.42857 c 1.47586,0.0621 5.79477,0.32434 6.02679,6.47321 0.11693,-6.32896 2.95695,-5.77385 5.35714,-6.33928 l 0,6.29464"
        id="path3407"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 389.19643,440.57647 0,-6.5625 c 4.53483,0.31982 5.36686,3.03075 5.75893,6.33928 1.22917,-6.68961 4.2909,-6.07326 5.53571,-6.33928 l 0,6.25"
        id="path3409"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 377.76786,633.43361 0,8.30357 c 4.50647,0.0811 5.96617,-2.69926 6.74107,-8.25893 0.92515,4.90286 0.25986,7.69702 7.00893,8.125 l 0,-8.03571"
        id="path3411"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 701.74107,495.17468 4.41067,2.36515 c -0.97479,1.93628 -2.62326,2.35478 -3.52679,2.77736 0.88321,0.33262 2.87914,1.07626 3.42219,3.33384 l -4.57392,1.56829"
        id="path3413"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 221.83036,283.03182 3.75,-4.95535 c 1.64143,0.76162 2.22252,2.50202 2.32143,4.6875 0.36197,-1.96466 0.99524,-3.48382 1.87499,-4.59822 l 4.50894,4.59822"
        id="path3415"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/aaron/proj/macmap/stuff/map.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 138.51717,606.37983 115.40993,0 0,16.03617 -115.28366,0 z"
+       id="path3577"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 138.76971,622.416 16.0993,-16.0993"
+       id="path3579"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 154.67961,622.416 16.16244,-16.16244"
+       id="path3581"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 170.58951,622.416 16.16244,-16.16244"
+       id="path3583"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 186.75195,622.416 16.09931,-16.0993"
+       id="path3585"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 202.66185,622.416 16.03618,-16.03617"
+       id="path3587"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 218.69803,622.28974 15.84676,-15.84677"
+       id="path3589"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 234.35539,622.416 15.7205,-15.72049"
+       id="path3591"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 249.88649,622.416 3.78807,-3.78807"
+       id="path3593"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 486.13591,621.15331 19.12977,-19.12976"
+       id="path3597"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 505.20254,621.27958 19.06663,-19.06663"
+       id="path3599"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 524.39544,621.15331 19.1929,-19.19289"
+       id="path3601"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 543.58834,621.40585 19.44544,-19.44543"
+       id="path3603"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 562.90751,621.15331 19.3823,-19.3823"
+       id="path3605"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 582.10041,621.15331 19.50857,-19.50857"
+       id="path3607"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 601.41957,621.27958 19.1929,-19.1929"
+       id="path3609"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1.08902299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 620.65699,621.36133 7.01903,-8.292"
+       id="path3611"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 644.57141,607.76879 5.55584,-5.55583"
+       id="path3615"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 632.50189,607.76879 5.99778,-5.99778"
+       id="path3617"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
