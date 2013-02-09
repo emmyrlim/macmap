@@ -10,7 +10,7 @@ class EventService {
             return 0
         }
 
-        String[] place = where.split(",")
+        String[] place = where.split(", ")
 
         new Event(eventName:  what, start:  start, end: end, place: new Place(name:  place[0], number: place[1].toInteger()),
                 people: who.split(",").collect( { new Person(name: it) } )).save(failOnError: true)
