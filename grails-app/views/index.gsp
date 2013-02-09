@@ -7,6 +7,12 @@
             }
         </style>
 
+        <style type="text/css">
+        #login {
+            visibility: hidden;
+        }
+        </style>
+
 		<meta name="layout" content="main"/>
 		<title>Macmap</title>
 
@@ -18,9 +24,15 @@
 	                <h1 class="title">MacMap</h1>
 	            </header>
         	</div>
+            <g:if test="${session.user}">hello ${session.user.userName}</g:if>
 			<div id="main">
-				<div id="map"></div>
+				<div id="wrapMap">
+					<div id="container"></div>
+				</div>
 				<button id="createEvent">Create new event</button>
+                <g:if test="${!session.user}"><button id="loginButton">Log in</button></g:if>
+                <g:if test="${session.user}"><br><g:link controller="User" action="logout">Log Out</g:link></g:if>
+                <g:if test="${session.user}"><br><g:link controller="User" action="getCal">Import Calender</g:link></g:if>
 				<div id="events"></div>
 			</div>
 		</div>
@@ -51,6 +63,24 @@
                 </tr>
             </table>
             <g:submitButton name="Submit" value="submit" />
+        </form>
+
+    </div>
+
+    <div id="login" title="Login">
+        <p>Please input</p>
+        <form name="loginForm" action="./User/login" method="get">
+            <table>
+                <tr>
+                    <td><label for="userName">username</label></td>
+                    <td><input type="text" name="userName" id="userName"/></td>
+                </tr>
+                <tr>
+                    <td><label for="userPass">password</label></td>
+                    <td><input type="password" name="userPass" id="userPass"/></td>
+                </tr>
+            </table>
+            <g:submitButton name="Submit" vale="submit" />
         </form>
 
     </div>
