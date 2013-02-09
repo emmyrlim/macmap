@@ -3,6 +3,28 @@ package org.macmap
 class EventService {
 
     /**
+     * Gets Events happening within a specific time.
+     * @param time The time for which events are to be fetched. Formatted as
+     *             dd MM yyyy HH:mm
+     * @return A list of events that are active during the parameter time.
+     */
+    def getEventsByTime(String time) {
+        String t = time
+        t = t.split("T")[0].split("-")[0] + " " + t.split("T")[0].split("-")[1] + " " + t.split("T")[0].split("-")[2]+ " " +t.split("T")[1].split(":")[0] + " " + t.split("T")[1].split(":")[1]
+        Date d
+        if (time!=null){
+            d = new Date().parse("yyyy MM dd HH mm", t)
+        }else{
+            d = new Date()
+        }
+        def results = Event.findAll {
+            end.after(d) && start.before(d)
+        }
+
+        return results
+    }
+
+        /**
      * @return 0 if the event existed already, 1 otherwise
      */
     def createEvent(String who, String what, String where, Date start, Date end) {

@@ -104,6 +104,7 @@ if (typeof jQuery !== 'undefined') {
 		};
 
 
+
 	$("#createEvent").on("click", function(){
         var dialog = $("#dialog");
         dialog.dialog({
