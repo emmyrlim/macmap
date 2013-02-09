@@ -7,6 +7,22 @@
   background-image: url('../images/map_colored.png');
 }*/
 
+#mapWrap{
+    float:right;
+}
+#filterBar{
+    float:left;
+}
+#filterContainer{
+    align: right;
+}
+.right{
+    text-align:right
+}
+#searchTable{
+    margin-top: 20px;
+    border: 0
+}
 div#container{
   width: 60%;
   margin: 0 auto;
