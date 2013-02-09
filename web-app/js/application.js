@@ -9,5 +9,53 @@ if (typeof jQuery !== 'undefined') {
 }
 
 (function($) {
-	console.log("hi");
+
+	$("#createEvent").on("click", function(){
+		console.log("create");
+	});
+
+	var o = $({});
+	$.each({
+		trigger: 'publish',
+		on: 'subscribe',
+		off: 'unsubscribe'
+	}, function (key, val) {
+		jQuery[val] = function(){
+			o[key].apply(o, arguments)
+		};
+	});
+
+	console.log(moment());
+
+	setInterval (function(){
+		var now = moment();
+		console.log(now);
+
+		$.ajax({
+		    url:"${g.createLink(controller:'event',action:'getEvents')}",
+		    dataType: 'json',
+		    data: {
+		        thing: "thing",
+		    },
+		    success: function(data) {
+		        alert(data)
+		        $.publish("getEvents", data)
+		    },
+		    error: function(request, status, error) {
+		        alert(error)
+		    },
+		    complete: function() {
+	    	}
+		});
+	}, 3000)
+	// should be 300000
+
+	$.subscribe("getEvents", function(e, results){
+		$('#events').html(
+			$.map( results, function (obj, index){
+				return '<li>' + obj.text + '</li>';
+			}).join('')
+		);
+	});
+
 })(jQuery);
