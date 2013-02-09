@@ -15,7 +15,7 @@ class EventController {
 
         def formattedResults = [events:[]] //[eventName: results.eventName[0], start: results.start[0], end: results.end[0], place: results.place[0], people:results.people[0]]]]
         for (int i =0; i<results.size(); i++){
-            formattedResults.events.add([eventName: results.eventName[i], start: results.start[i], end: results.end[i], place: results.place[i], people:results.people[i]])
+            formattedResults.events.add([eventName: results.eventName[i], start: results.start[i].format("MM/dd/yyyy HH:mm"), end: results.end[i].format("MM/dd/yyyy HH:mm"), place: results.place[i], people:results.people[i]])
         }
         render  formattedResults as JSON
         //render results as JSON
@@ -83,5 +83,6 @@ class EventController {
             render(status: 400, text: "failed to create event")
         }
     }
+
 
 }
