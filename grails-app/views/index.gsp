@@ -22,28 +22,32 @@
 			<div class="header-container">
 	            <header class="wrapper clearfix">
 	                <h1 class="title">MacMap</h1>
+                    <g:if test="${session.user}">
+                        <div id="loginAcknowledge">Hello ${session.user.userName}</div>
+                    </g:if>
 	            </header>
         	</div>
-            <g:if test="${session.user}">hello ${session.user.userName}</g:if>
+
 			<div id="main">
 				<div id="wrapMap">
 					<div id="container"></div>
+                    <div id="filterBar">
+                        <div class="filterContainer">
+                            <label for="peopleFilter">Search People: </label>
+                            <input id="peopleFilter" />
+                        </div>
+                        <div class="filterContainer">
+                            <label for="timeFilter">Search Time: </label>
+                            <input id="timeFilter" />
+                        </div>
+                    </div>
 				</div>
+
 				<button id="createEvent">Create new event</button>
                 <g:if test="${!session.user}"><button id="loginButton">Log in</button></g:if>
                 <g:if test="${session.user}"><br><g:link controller="User" action="logout">Log Out</g:link></g:if>
                 <g:if test="${session.user}"><br><g:link controller="User" action="getCal">Import Calender</g:link></g:if>
 				<div id="events"></div>
-                <div id="filterBar">
-                    <div class="filterContainer">
-                        <label for="peopleFilter">Search People: </label>
-                        <input id="peopleFilter" />
-                    </div>
-                    <div class="filterContainer">
-                        <label for="timeFilter">Search Time: </label>
-                        <input id="timeFilter" />
-                    </div>
-                </div>
 			</div>
 		</div>
 
