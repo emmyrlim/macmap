@@ -4,7 +4,7 @@ class User {
 
     String userName;
     String userPass;
-    Person who;
+    Long whoID;
     String calURL;
     Long userID;
 
