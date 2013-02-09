@@ -132,10 +132,11 @@ if (typeof jQuery !== 'undefined') {
 		    url:"event/getEventsByTime",
 		    dataType: 'json',
 		    data: {
-		        when: now.toJSON(),
+		        when: now.toJSON()
 		    },
 		    success: function(data) {
-		        $.publish("getEventsByTime", data)
+                console.log(data);
+		        $.publish("getEvents", data)
 		    },
 		    error: function(request, status, error) {
 		        console.log(error)
