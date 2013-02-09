@@ -3,7 +3,10 @@ import grails.converters.JSON
 
 
 class EventController {
-    def getEvents(){
+
+    def index() { }
+
+    def getEvents() {
          def events=Event.list()
         ArrayList<String> eventList=new ArrayList<String>()
         for(Event e: events){
@@ -17,5 +20,15 @@ class EventController {
         render (eventList) as JSON
 
     }
-    def index() { }
+
+    def makeEvent() {
+        def who = params.who
+        def where = params.where
+        def what = params.what
+        def when = params.when
+
+        render(status: 400, text: "fail!")
+//        render(status: 200, text: "woot!")
+    }
+
 }
