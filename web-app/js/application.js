@@ -8,7 +8,23 @@ if (typeof jQuery !== 'undefined') {
 	})(jQuery);
 }
 
+var initFilterBar = function() {
+    var people = ["Aaron", "jstein", "Bob Saget", "Shilad Sen", "Adom West",
+                  "Awesome Judge1", "Awesome Judge2", "Awesome Judge2", "Grand Dictator",
+                  "Cartographer", "Debugger", "Time Lord"];
+    $("#peopleFilter").autocomplete({
+        source: people
+    });
+    $('#timeFilter').datetimepicker({
+        hourGrid: 4,
+        minuteGrid: 10,
+        timeFormat: 'hh:mm tt'
+    });
+};
+
 (function($) {
+
+    initFilterBar();
 
 	var o = $({}),
 		roomCoords = {

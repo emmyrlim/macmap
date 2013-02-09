@@ -34,6 +34,16 @@
                 <g:if test="${session.user}"><br><g:link controller="User" action="logout">Log Out</g:link></g:if>
                 <g:if test="${session.user}"><br><g:link controller="User" action="getCal">Import Calender</g:link></g:if>
 				<div id="events"></div>
+                <div id="filterBar">
+                    <div class="filterContainer">
+                        <label for="peopleFilter">Search People: </label>
+                        <input id="peopleFilter" />
+                    </div>
+                    <div class="filterContainer">
+                        <label for="timeFilter">Search Time: </label>
+                        <input id="timeFilter" />
+                    </div>
+                </div>
 			</div>
 		</div>
 
@@ -82,7 +92,7 @@
             </table>
             <g:submitButton name="Submit" vale="submit" />
         </form>
-
     </div>
+
 	</body>
 </html>

@@ -42,4 +42,8 @@ div#container{
 
 .header-container {
     background: #FFB973;
+}
 
+.filterContainer {
+    margin: 5px;
+}
