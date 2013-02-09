@@ -25,9 +25,8 @@ class EventController {
             end.after(d) && start.before(d)
         }
 
-//        System.out.println("Returning the JSON")
-
-        render  results as JSON
+        def formattedResults = [events:[event: [eventName: results.eventName, start: results.start, end: results.end, place: results.place, people:results.people]]]
+        render  formattedResults as JSON
 
         /*for(Event e: events){
 
