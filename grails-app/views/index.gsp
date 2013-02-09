@@ -43,7 +43,7 @@
                                 <td>
                                     <div class="filterContainer">
                                         <label for="peopleFilter">Search People: </label>
-                                        <input size= "15" id="peopleFilter" />
+                                        <input size= "20" id="peopleFilter" />
                                     </div>
                                 </td>
                             </tr>
@@ -51,7 +51,7 @@
                                 <td>
                                     <div class="filterContainer">
                                         <label for="timeFilter">Search Time: </label>
-                                        <input size="15" id="timeFilter" />
+                                        <input size="20" id="timeFilter" />
                                     </div>
                                 </td>
                             </tr>
