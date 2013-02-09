@@ -157,7 +157,6 @@ var initFilterBar = function() {
 		        when: now.toJSON()
 		    },
 		    success: function(data) {
-		    	console.log(data);
 		        $.publish("getEvents", data)
 		    },
 		    error: function(request, status, error) {
@@ -179,7 +178,6 @@ var initFilterBar = function() {
 	function drawMap(data){
 		var activeCoords = [],
             events = data['events'];
-        console.log(data);
 		$.each(events, function (k,v){
 			var place = v['place']['number'],
 				people = v['people'];
@@ -197,9 +195,7 @@ var initFilterBar = function() {
 			});
 
         var putPeople = function() {
-        	console.log(activeCoords);
             $.each(activeCoords, function(key, val){
-            	console.log(val);
                 var circle = new Kinetic.Circle({
                     x: stage.getWidth()/685 * val[0],
                     y: stage.getHeight()/417 * val[1],
@@ -220,38 +216,62 @@ var initFilterBar = function() {
                 var tooltip = new Kinetic.Text({
                 	text: "",
 	                fontFamily: "Calibri",
+                    width: 350,
 	                fontSize: 20,
 	                padding: 5,
 	                textFill: "white",
 	                fill: "black",
                 	alpha: 0.9,
-                	visible: false,
-                	x: 300,
-                	y: 300
+                	visible: false
             	});
 
+                var tooltipRect = new Kinetic.Rect({
+                    stroke: '#555',
+                    strokeWidth: 1,
+                    fill: '#ddd',
+                    shadowColor: 'black',
+                    shadowBlur: 2,
+                    shadowOffset: [2, 2],
+                    shadowOpacity: 0.2,
+                    visible: false
+                });
 
                 circle.on('mousemove', function() {
-                    var eventName = circle.getAttrs()['eventName'],
-                		mousePos = stage.getMousePosition();
                     document.body.style.cursor = 'pointer';
-                    circle.setStrokeWidth(3);
-                    tooltip.setPosition(mousePos.x + 5, mousePos.y + 5);
-                	tooltip.text = eventName;
+                    var eventName = circle.getAttrs()['eventName'],
+                        startTime = circle.getAttrs()['start'],
+                        endTime = circle.getAttrs()['end'],
+                        people = circle.getAttrs()['people'],
+                		mousePos = stage.getMousePosition(),
+                        text = "";
+                    console.log(circle.getAttrs());
+                    tooltip.setPosition(mousePos.x + 10, mousePos.y + 10);
+                    tooltipRect.setPosition(mousePos.x + 10, mousePos.y + 10);
+                    tooltipRect.setWidth(tooltip.getWidth());
+                    tooltipRect.setHeight(tooltip.getHeight());
+                	text = eventName + "\nStarting at: " + startTime + "\nEnding at: " + endTime + "\nParticipants: ";
+                    $(people).each(function(ind) {
+                        if (ind == $(people).size()-1) {
+                            text += this.name;
+                        } else {
+                            text += this.name + ", ";
+                        }
+                    });
+                    tooltip.setText(text);
                 	tooltip.show();
-                	peopleLayer.draw();
+                    tooltipRect.show();
                 	tooltipLayer.draw();
                 });
+
                 circle.on('mouseout', function(){
                     document.body.style.cursor = 'default';
-                    circle.setStrokeWidth(1);
                     tooltip.hide();
-                    peopleLayer.draw();
+                    tooltipRect.hide();
                 	tooltipLayer.draw();
-                    // console.log("mouseout");
                 });
-            	peopleLayer.add(circle);
-            	tooltipLayer.add(tooltip);
+                peopleLayer.add(circle);
+                tooltipLayer.add(tooltipRect);
+                tooltipLayer.add(tooltip);
             });
             stage.add(peopleLayer);
             stage.add(tooltipLayer);
@@ -275,7 +295,6 @@ var initFilterBar = function() {
             putPeople();
         };
         imageObj.src = 'images/map_colored.png';
-
 	}
 
 	$(window).on('resize',function(){
