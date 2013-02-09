@@ -18,7 +18,7 @@ class EventController {
             d = new Date()
         }
         def results = Event.findAll {
-            end>= d && end && start <=d
+            end.after(d) && start.before(d)
         }
 
         return results as JSON
