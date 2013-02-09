@@ -17,6 +17,7 @@
 		<link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
         <link rel="stylesheet" href="${resource(dir:'css',file:'map.css')}" type="text/css">
         <link rel="stylesheet" href="${resource(dir: 'css', file: 'jquery-ui-1.10.0.custom.min.css')}" type="text/css">
+        <link rel="stylesheet" href="${resource(dir: 'css', file: 'jquery-ui-timepicker-addon.css')}" type="text/css">
 		<g:layoutHead/>
 		<r:layoutResources />
 	</head>
