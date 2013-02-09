@@ -151,7 +151,7 @@ if (typeof jQuery !== 'undefined') {
 
 	}
 
-	setInterval (makeCall, 300000)
+	setInterval (makeCall, 1000*60*5);
 	// should be 300000
 
 	$.subscribe("getEvents", function(e, results){
@@ -165,7 +165,7 @@ if (typeof jQuery !== 'undefined') {
 			var place = v['place']['number'],
 				people = v['people'];
 			activeCoords.push(roomCoords[place]);
-		})
+		});
 
 		var scale = 0.6,
 			sizeRatio = 417/685,
