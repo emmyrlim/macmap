@@ -10,8 +10,8 @@
 div#map
 {
 	display: block;
-	width: 1000px;
-	height: 400px;
+	width: 720px;
+	height: 417px;
 	margin: 0 auto;
   background-image: url('../images/map_colored.png');
 }
