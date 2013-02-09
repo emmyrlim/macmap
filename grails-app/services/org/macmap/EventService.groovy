@@ -12,16 +12,16 @@ class EventService {
         String t = time
 
         Date d
-        try{
-            d= new Date().parse("MM/dd/yyyy HH:mm", t)
-        } catch (Exception e) {
+        //try{
+        //    d= new Date().parse("MM/dd/yyyy HH:mm", t)
+        //} catch (Exception e) {
             t = t.split("T")[0].split("-")[0] + " " + t.split("T")[0].split("-")[1] + " " + t.split("T")[0].split("-")[2]+ " " +t.split("T")[1].split(":")[0] + " " + t.split("T")[1].split(":")[1]
             if (time!=null){
                 d = new Date().parse("yyyy MM dd HH mm", t)
             }else{
                 d = new Date()
             }
-        }
+        //}
         //def results = Event.withCriteria {
         //    lt('start',d)
         //    gt('end',d)
@@ -31,10 +31,10 @@ class EventService {
             //println(e)
             //println(e.start)
             //println(e.end)
-            if (e.start.getTime() < d.getTime() && e.end.getTime() <d.getTime()) results.add(e)
+            if (e.start.getTime() < d.getTime() && e.end.getTime() >d.getTime()) results.add(e)
         }
-        //println(d)
-        //println(results)
+        println(d)
+        println(results.toString())
 
         return results
     }

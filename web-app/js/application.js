@@ -118,7 +118,7 @@ var initFilterBar = function() {
 	        "271" : [0,0],
 	        "298" : [0,0]
 		},
-		timeInMins = 5;
+		timeInMins = 0.1;
 
 
 
