@@ -152,7 +152,6 @@ if (typeof jQuery !== 'undefined') {
 	}
 
 	setInterval (makeCall, 1000*60*5);
-	// should be 300000
 
 	$.subscribe("getEvents", function(e, results){
 		$('#container').empty();
@@ -177,45 +176,46 @@ if (typeof jQuery !== 'undefined') {
 				height: height
 			});
 
-		var mapLayer = new Kinetic.Layer();
-		var imageObj = new Image();
-		imageObj.onload = function() {
-	        var map = new Kinetic.Image({
-		        x: 0,
-		        y: 0,
-		        image: imageObj,
-		        width: width,
-		        height: height
-	        });
+        var putPeople = function() {
+            var peopleLayer = new Kinetic.Layer();
+            $.each(activeCoords, function(key, val){
+                var circle = new Kinetic.Circle({
+                    x: stage.getWidth()/685 * val[0],
+                    y: stage.getHeight()/417 * val[1],
+                    radius: width*0.010,
+                    fill: 'red',
+                    stroke: 'black',
+                    strokeWidth: 1
+                });
 
-	        // add the shape to the layer
-	        mapLayer.add(map);
-	        // add the layer to the stage
-	        stage.add(mapLayer);
-      	};
-      	imageObj.src = 'images/map_colored.png';
+                circle.on('mouseover', function() {
+                    console.log("mouseover");
+                });
+                circle.on('mouseout', function(){
+                    console.log("mouseout");
+                });
 
-      	var peopleLayer = new Kinetic.Layer();
-      	$.each(activeCoords, function(key, val){
-          	var circle = new Kinetic.Circle({
-		        x: stage.getWidth()/685 * val[0],
-		        y: stage.getHeight()/417 * val[1],
-		        radius: width*0.010,
-		        fill: 'red',
-		        stroke: 'black',
-		        strokeWidth: 1
-		    });
+                peopleLayer.add(circle);
+            });
+            stage.add(peopleLayer);
+        };
 
-		    circle.on('mouseover', function() {
-        		console.log("mouseover event");
-      		});
-      		circle.on('mouseout', function(){
-      			console.log("mouseout");
-      		});
+        var mapLayer = new Kinetic.Layer();
+        var imageObj = new Image();
+        imageObj.onload = function() {
+            var map = new Kinetic.Image({
+                x: 0,
+                y: 0,
+                image: imageObj,
+                width: width,
+                height: height
+            });
 
-		    peopleLayer.add(circle);
-      	});
-      	stage.add(peopleLayer);
+            mapLayer.add(map);
+            stage.add(mapLayer);
+            putPeople();
+        };
+        imageObj.src = 'images/map_colored.png';
 
 	}
 
