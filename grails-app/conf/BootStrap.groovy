@@ -103,8 +103,8 @@ class BootStrap {
         e.addToPeople(new Person(name: "Grand Dictator"))
         e.addToPeople(new Person(name: "Master of .pptx"))
         e.addToPeople(new Person(name: "Cartographer"))
-        e.addToPeople(new Person(name: "Slave Rat #1"))
-        e.addToPeople(new Person(name: "Slave Rat #2"))
+        e.addToPeople(new Person(name: "Timelord"))
+        e.addToPeople(new Person(name: "Brandon's Debugger"))
         e.save(failOnError: false)
 
 
