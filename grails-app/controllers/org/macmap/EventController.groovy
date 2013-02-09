@@ -7,12 +7,14 @@ class EventController {
          def events=Event.list()
         ArrayList<String> eventList=new ArrayList<String>()
         for(Event e: events){
-            String s=e.getEventName()+" "+e.getStart()+ " "+e.getEnd()+" "+ e.getPlace()
+            String s=e.getEventName()+" "+e.getStart()+ " "+e.getEnd()+" "+ e.getPlace().name
             for(Person p: e.getPeople()){
                 s+=" "+p.name
             }
+            eventList.add(s)
         }
-        return eventList as JSON
+        print eventList.get(0)
+        render (eventList) as JSON
 
     }
     def index() { }
