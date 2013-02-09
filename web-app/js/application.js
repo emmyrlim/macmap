@@ -101,11 +101,15 @@ if (typeof jQuery !== 'undefined') {
 	        "271A" : [0,0],
 	        "271" : [0,0],
 	        "298" : [0,0]
-		}
+		};
 
 
 	$("#createEvent").on("click", function(){
-		console.log("create");
+        var dialog = $("#dialog");
+        dialog.dialog({
+            draggable: false
+        });
+        dialog.css("visibility","visible");
 	});
 
 	$.each({
