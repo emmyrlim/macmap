@@ -7,11 +7,17 @@
 	</head>
 	<body>
 		<div id="page-body" role="main">
-			<h1>MACMAP</h1>
-			<embed src="${createLinkTo(dir:'images',file:'map.svg')}" type="image/svg+xml" />
-			<button id="createEvent">Create button</button>
-			<div class="circle"></div>
-			<div id="events"></div>
+			<div class="header-container">
+	            <header class="wrapper clearfix">
+	                <h1 class="title">MacMap</h1>
+	            </header>
+        	</div>
+			<div id="main">
+				<div id="map"></div>
+				<button id="createEvent">Create button</button>
+				<!-- <div class="circle"></div> -->
+				<div id="events"></div>
+			</div>
 		</div>
 	</body>
 </html>

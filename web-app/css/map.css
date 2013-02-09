@@ -1,8 +1,52 @@
 .circle {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background: orange;
   border: 1px black;
   /* width and height can be anything, as long as they're equal */
+}
+
+div#map
+{
+	display: block;
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+  background-image: url('../images/map_colored.png');
+}
+
+
+#main {
+	margin: auto;
+	margin-top: 20px;
+	width: 90%;
+	/*background: lightblue;*/
+}
+
+
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.header-container {
+    border-bottom: 20px solid #FFB973;
+    background: #FFB973;
+
 }

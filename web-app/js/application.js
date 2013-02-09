@@ -12,95 +12,95 @@ if (typeof jQuery !== 'undefined') {
 
 	var o = $({}),
 		roomCoords = {
-			"241" = new "me:" "Classroom", int:241)
-	        "243" = new "me:" "Classroom", int:243)
-	        "245" = new "me:" "Classroom", int:245)
-	        "247" = new "me:" "Classroom", int:247)
-	        "249" = new "me:" "Study Room", int:249)
-	        "248" = new "me:" "Study Room", int:248)
-	        "257" = new "me:" "Math/Comp Sci. Comp Lab", int:257)
-	        "259" = new "me:" "Math/Comp Sci. Comp. Lab", int:259)
-	        "246" = new "me:" "Math/Comp Sci. Storage", int:246)
-	        "255" = new "me:" "Math/Comp Sci. Storage", int:255)
-	        "258" = new "me:" "Math/Comp Sci. Lab", int:258)
-	        "256" = new "me:" "Math/Comp Sci. Lab", int:256)
-	        "254" = new "me:" "Math/Comp sci ref. room", int:254)
-	        "252" = new "me:" "Copy/Mail Room", int:252)
-	        "252A" = new "me:" "Storage", int:252, 'A')
-	        "208" = new "me:" "Women's", int:208)
-	        "205" = new "me:" "Symposium", int:205)
-	        "205D" = new "me:" "No name", int:205, 'D')
-	        "205E" = new "me:" "Sto", int:205, 'E')
-	        "253" = new "me:" "Prep room", int:253)
-	        "250" = new "me:" "Lecture", int:250)
-	        "240" = new "me:" "Cust", int:240)
-	        "240A" = new "me:" "Tel. Clo", int:240, 'A')
-	        "240B" = new "me:" "Elec. Clo", int:240, 'B')
-	        "205A" = new "me:" "Pantry", int:205, 'A')
-	        "200" = new "me:" "Lobby", int:200)
-	        "206" = new "me:" "Lobby", int:206)
-	        "222" = new "me:" "Dept. Office", int:222)
-	        "223" = new "me:" "Faculty Office", int:223)
-	        "224" = new "me:" "Faculty Office", int:224)
-	        "225" = new "me:" "Faculty Office", int:225)
-	        "226" = new "me:" "Faculty Office", int:226)
-	        "227" = new "me:" "Faculty Office", int:227)
-	        "228" = new "me:" "Faculty Office", int:228)
-	        "229" = new "me:" "Faculty Office", int:229)
-	        "230" = new "me:" "Faculty Office", int:230)
-	        "231" = new "me:" "Faculty Office", int:231)
-	        "232" = new "me:" "Faculty Office", int:232)
-	        "233" = new "me:" "Faculty Office", int:233)
-	        "201" = new "me:" "DN", int:201)
-	        "297" = new "me:" "UP DN", int:297)
-	        "207" = new "me:" "DN UP", int:207)
-	        "284" =new "ame":"Biology Teaching Lab",number: 284)
-	        "285" =new "ame":"Biology Teaching Lab",number: 285)
-	        "286" =new "ame":"Biology Prep Room",number: 286)
-	        "287" =new "ame":"Biology Teaching Lab",number: 287)
-	        "283" =new "ame":"Biology Research Lab",number: 283)
-	        "282" =new "ame":"Storage",number: 252)
-	        "281" =new "ame":"Biology Research Lab",number: 281)
-	        "278" =new "ame":"Biology Computer Lab",number: 278)
-	        "280" =new "ame":"Biology Research Lab",number: 280)
-	        "276" =new "ame":"Biology Research Lab",number: 276)
-	        "274B" =new "ame":"Cust",number: 274,roomDes: 'B')
-	        "274A" =new "ame":"Elec Clo",number: 284, roomDes: 'A')
-	        "274" =new "ame":"Tel Clo",number: 274)
-	        "272" =new "ame":"Biology Reference Lab",number: 272)
-	        "270" =new "ame":"Seminar",number: 270)
-	        "288A" =new "ame":"Class Wash",number: 288, roomDes: 'A')
-	        "288" =new "ame":"No Name",number: 288)
-	        "288B" =new "ame":"Prep Lab",number: 288, roomDes: 'B')
-	        "289" =new "ame":"Biology Teaching Lab",number: 289)
-	        "290" =new "ame":"Biology Cold Room",number: 290)
-	        "260" =new "ame":"Biology Research Lab",number: 260)
-	        "299" =new "ame":"Stair",number: 299)
-	        "261" =new "ame":"Elevator",number: 261)
-	        "210" =new "ame":"Faculty Office",number: 210)
-	        "211" =new "ame":"Faculty Office",number: 211)
-	        "212" =new "ame":"Faculty Office",number: 212)
-	        "213" =new "ame":"Faculty Office",number: 213)
-	        "214" =new "ame":"Faculty Office",number: 214)
-	        "215" =new "ame":"Faculty Office",number: 215)
-	        "216" =new "ame":"Faculty Office",number: 216)
-	        "217" =new "ame":"Faculty Office",number: 217)
-	        "218" =new "ame":"Faculty Office",number: 218)
-	        "219" =new "ame":"Faculty Office",number: 219)
-	        "220" =new "ame":"Faculty Office",number: 220)
-	        "221" =new "ame":"Dept Office",number: 221)
-	        "277" =new "ame":"Biology Teaching Lab",number: 277)
-	        "275" =new "ame":"Biology Teaching Lab",number: 275)
-	        "275A" =new "ame":"Vest.",number: 275, roomDes: 'A')
-	        "275B" =new "ame":"Sto.",number: 275, roomDes: 'B')
-	        "262" =new "ame":"Biology Research Lab",number: 262)
-	        "263" =new "ame":"Biology Research Lab",number: 263)
-	        "264" =new "ame":"Biology Research Lab",number: 264)
-	        "209" =new "ame":"Men's",number: 262)
-	        "273" =new "ame":"Biology Teaching Lab",number: 273)
-	        "271A" =new "ame":"Biology Prep",number: 271, roomDes: 'A')
-	        "271" =new "ame":"Biology Storage",number: 271)
-	        "298" =new "ame":"Stairs",number: 298)
+			"241" : [0,0],
+	        "243" : [0,0],
+	        "245" : [0,0],
+	        "247" : [0,0],
+	        "249" : [0,0],
+	        "248" : [0,0],
+	        "257" : [0,0],
+	        "259" : [0,0],
+	        "246" : [0,0],
+	        "255" : [0,0],
+	        "258" : [0,0],
+	        "256" : [0,0],
+	        "254" : [0,0],
+	        "252" : [0,0],
+	        "252A" : [0,0],
+	        "208" : [0,0],
+	        "205" : [0,0],
+	        "205D" : [0,0],
+	        "205E" : [0,0],
+	        "253" : [0,0],
+	        "250" : [0,0],
+	        "240" : [0,0],
+	        "240A" : [0,0],
+	        "240B" : [0,0],
+	        "205A" : [0,0],
+	        "200" : [0,0],
+	        "206" : [0,0],
+	        "222" : [0,0],
+	        "223" : [0,0],
+	        "224" : [0,0],
+	        "225" : [0,0],
+	        "226" : [0,0],
+	        "227" : [0,0],
+	        "228" : [0,0],
+	        "229" : [0,0],
+	        "230" : [0,0],
+	        "231" : [0,0],
+	        "232" : [0,0],
+	        "233" : [0,0],
+	        "201" : [0,0],
+	        "297" : [0,0],
+	        "207" : [0,0],
+	        "284" : [0,0],
+	        "285" : [0,0],
+	        "286" : [0,0],
+	        "287" : [0,0],
+	        "283" : [0,0],
+	        "282" : [0,0],
+	        "281" : [0,0],
+	        "278" : [0,0],
+	        "280" : [0,0],
+	        "276" : [0,0],
+	        "274B" : [0,0],
+	        "274A" : [0,0],
+	        "274" : [0,0],
+	        "272" : [0,0],
+	        "270" : [0,0],
+	        "288A" : [0,0],
+	        "288" : [0,0],
+	        "288B" : [0,0],
+	        "289" : [0,0],
+	        "290" : [0,0],
+	        "260" : [0,0],
+	        "299" : [0,0],
+	        "261" : [0,0],
+	        "210" : [0,0],
+	        "211" : [0,0],
+	        "212" : [0,0],
+	        "213" : [0,0],
+	        "214" : [0,0],
+	        "215" : [0,0],
+	        "216" : [0,0],
+	        "217" : [0,0],
+	        "218" : [0,0],
+	        "219" : [0,0],
+	        "220" : [0,0],
+	        "221" : [0,0],
+	        "277" : [0,0],
+	        "275" : [0,0],
+	        "275A" : [0,0],
+	        "275B" : [0,0],
+	        "262" : [0,0],
+	        "263" : [0,0],
+	        "264" : [0,0],
+	        "209" : [0,0],
+	        "273" : [0,0],
+	        "271A" : [0,0],
+	        "271" : [0,0],
+	        "298" : [0,0]
 		}
 
 
@@ -122,16 +122,16 @@ if (typeof jQuery !== 'undefined') {
 
 	setInterval (function(){
 		var now = moment();
-		console.log(now);
+		console.log(now.toJSON());
 
 		$.ajax({
-		    url:"${g.createLink(controller:'event',action:'getEvents')}",
+		    url:"event/getEvents",
 		    dataType: 'json',
 		    data: {
-		        thing: "thing",
+		        when: now.toJSON(),
 		    },
 		    success: function(data) {
-		        $.publish("getEvents", data)
+		        $.publish("getEventsByTime", data)
 		    },
 		    error: function(request, status, error) {
 		        console.log(error)
@@ -139,7 +139,7 @@ if (typeof jQuery !== 'undefined') {
 		    complete: function() {
 	    	}
 		});
-	}, 300000)
+	}, 3000)
 	// should be 300000
 
 	$.subscribe("getEvents", function(e, results){
