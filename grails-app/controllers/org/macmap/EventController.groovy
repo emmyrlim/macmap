@@ -35,26 +35,31 @@ class EventController {
             return "No events now"
         }*/
     }
-    def getEventsByPerson(String pers){
-        def events=Event.list()
-        ArrayList<String> eventList=new ArrayList<String>()
-        for(Event e: events){
-            for(Person person: e.getPeople()){
-                if (person.name.equals(pers)){
-                    String s=e.getEventName()+" "+e.getStart()+ " "+e.getEnd()+" "+ e.getPlace().name
-                    for(Person p: e.getPeople()){
-                        s+=" "+p.name
-                    }
-                eventList.add(s)
-                }
+    def getEventsByPerson(Set<String> peeps){
+//        def events=Event.findAll()
+//        ArrayList<String> eventList=new ArrayList<String>()
+//        for(Event e: events){
+//            for(Person person: e.getPeople()){
+//                if (person.name.equals(pers)){
+//                    String s=e.getEventName()+" "+e.getStart()+ " "+e.getEnd()+" "+ e.getPlace().name
+//                    for(Person p: e.getPeople()){
+//                        s+=" "+p.name
+//                    }
+//                eventList.add(s)
+//                }
+//            }
+//        }
+        Set<Event> results= new HashSet();
+        for (e in Event.findAll()){
+            for (p in e.people){
+                if (peeps.contains(p)) results.add(e)
             }
         }
-        if (eventList.size()>0){
-            return (eventList) as JSON
-        }else{
-            return "No events for "+pers+ " now"
+        def formattedResults = [events:[]] //[eventName: results.eventName[0], start: results.start[0], end: results.end[0], place: results.place[0], people:results.people[0]]]]
+        for (e in results){
+            formattedResults.events.add([eventName: e.eventName, start: e.start, end: e.end, place: e.place, people:e.people])
         }
-
+        render  formattedResults as JSON
     }
 
     def makeEvent() {
