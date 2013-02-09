@@ -197,7 +197,9 @@ var initFilterBar = function() {
 			});
 
         var putPeople = function() {
+        	console.log(activeCoords);
             $.each(activeCoords, function(key, val){
+            	console.log(val);
                 var circle = new Kinetic.Circle({
                     x: stage.getWidth()/685 * val[0],
                     y: stage.getHeight()/417 * val[1],
@@ -223,8 +225,11 @@ var initFilterBar = function() {
 	                textFill: "white",
 	                fill: "black",
                 	alpha: 0.9,
-                	visible: false
+                	visible: false,
+                	x: 300,
+                	y: 300
             	});
+
 
                 circle.on('mousemove', function() {
                     var eventName = circle.getAttrs()['eventName'],
@@ -233,11 +238,9 @@ var initFilterBar = function() {
                     circle.setStrokeWidth(3);
                     tooltip.setPosition(mousePos.x + 5, mousePos.y + 5);
                 	tooltip.text = eventName;
-
                 	tooltip.show();
                 	peopleLayer.draw();
                 	tooltipLayer.draw();
-                	console.log(tooltip);
                 });
                 circle.on('mouseout', function(){
                     document.body.style.cursor = 'default';
