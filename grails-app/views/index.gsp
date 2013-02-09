@@ -8,8 +8,10 @@
 	<body>
 		<div id="page-body" role="main">
 			<h1>Welcome to Grails</h1>
-			<embed src="${createLinkTo(dir:'images',file:'drawing.svg')}" type="image/svg+xml" />
+			<embed src="${createLinkTo(dir:'images',file:'map.svg')}" type="image/svg+xml" />
 			<button id="createEvent">Create button</button>
+			<div class="circle">a</div>
+			<div id="events"></div>
 		</div>
 	</body>
 </html>
