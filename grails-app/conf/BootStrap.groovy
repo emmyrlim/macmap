@@ -114,7 +114,7 @@ class BootStrap {
         //The document has moved <A HREF="https://www.google.com/calendar/ical/macalester.edu_26uu1hu7vpbdmiecfuo9o61ehc%40group.calendar.google.com/private-b8202f08b6baa7049fc00249cebae87c/basic.ics">here</A>.
 
         Person jacobS = new Person(name: "Jacob").save()
-        Person bobS = new Person(name: "Jacob").save()
+        Person bobS = new Person(name: "Bob Saget").save()
         User jacob=new User(userName: "jstein",whoID: jacobS.id, calURL: "https://www.google.com/calendar/ical/macalester.edu_26uu1hu7vpbdmiecfuo9o61ehc%40group.calendar.google.com/private-b8202f08b6baa7049fc00249cebae87c/basic.ics",userID: 2,userPass: "macMap").save()
         User bob=new User(userName: "bsaget",whoID: bobS.id, calURL: "https://www.google.com/calendar/ical/macalester.edu_n3ghkumtmcjc0va0ivroq4nkmc%40group.calendar.google.com/private-1717c1559ac18efb005e3d23a505a7d4/basic.ics",userID: 3,userPass: "macMap").save()
 
