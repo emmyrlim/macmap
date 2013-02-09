@@ -102,7 +102,6 @@ if (typeof jQuery !== 'undefined') {
 	        "271" : [0,0],
 	        "298" : [0,0]
 		};
-	var activeRooms;
 
 
 	$("#createEvent").on("click", function(){
@@ -131,10 +130,8 @@ if (typeof jQuery !== 'undefined') {
 		};
 	});
 
-	setInterval (function(){
+	function makeCall(){
 		var now = moment();
-		console.log(now.toJSON());
-
 		$.ajax({
 		    url:"event/getEventsByTime",
 		    dataType: 'json',
@@ -142,6 +139,7 @@ if (typeof jQuery !== 'undefined') {
 		        when: now.toJSON()
 		    },
 		    success: function(data) {
+		    	console.log(data);
 		        $.publish("getEvents", data)
 		    },
 		    error: function(request, status, error) {
@@ -150,20 +148,25 @@ if (typeof jQuery !== 'undefined') {
 		    complete: function() {
 	    	}
 		});
-	}, 3000)
+
+	}
+
+	setInterval (makeCall, 300000)
 	// should be 300000
 
 	$.subscribe("getEvents", function(e, results){
+		var activeCoords = [];
 		$.each(results['events'], function(k,v){
 			var place = v['place']['number'],
 				people = v['people'];
-			console.log(roomCoords[place]);
+			activeCoords.push(roomCoords[place]);
 			console.log(v);
-			// console.log(roomCoords['205']);
 		})
+		$('#container').empty();
+		drawMap(activeCoords)
 	});
 
-	function drawMap(){
+	function drawMap(activeCoords){
 		var scale = 0.6,
 			sizeRatio = 417/685,
 			width = $(window).width()*scale,
@@ -193,7 +196,7 @@ if (typeof jQuery !== 'undefined') {
       	imageObj.src = 'images/map_colored.png';
 
       	var peopleLayer = new Kinetic.Layer();
-      	$.each(activeRooms, function(key, val){
+      	$.each(activeCoords, function(key, val){
           	var circle = new Kinetic.Circle({
 		        x: stage.getWidth()/685 * val[0],
 		        y: stage.getHeight()/417 * val[1],
@@ -216,10 +219,9 @@ if (typeof jQuery !== 'undefined') {
 	});
 
 	$(window).on('resizeEnd orientationchange',function(){
-		$('#container').empty();
-		drawMap();
+		makeCall();
 	});
 
-	drawMap();
+	makeCall();
 
 })(jQuery);
