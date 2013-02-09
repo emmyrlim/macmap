@@ -38,16 +38,15 @@ if (typeof jQuery !== 'undefined') {
 		        thing: "thing",
 		    },
 		    success: function(data) {
-		        alert(data)
 		        $.publish("getEvents", data)
 		    },
 		    error: function(request, status, error) {
-		        alert(error)
+		        console.log(error)
 		    },
 		    complete: function() {
 	    	}
 		});
-	}, 3000)
+	}, 300000)
 	// should be 300000
 
 	$.subscribe("getEvents", function(e, results){
