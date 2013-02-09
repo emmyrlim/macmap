@@ -197,9 +197,9 @@ var initFilterBar = function() {
 			});
 
         var putPeople = function() {
-            var peopleLayer = new Kinetic.Layer(),
-            	tooltipLayer = new Kinetic.Layer();
+        	console.log(activeCoords);
             $.each(activeCoords, function(key, val){
+            	console.log(val);
                 var circle = new Kinetic.Circle({
                     x: stage.getWidth()/685 * val[0],
                     y: stage.getHeight()/417 * val[1],
@@ -217,40 +217,49 @@ var initFilterBar = function() {
                     "end":events[key]["end"]
                 });
 
-                circle.on('mouseover', function() {
+                var tooltip = new Kinetic.Text({
+                	text: "",
+	                fontFamily: "Calibri",
+	                fontSize: 20,
+	                padding: 5,
+	                textFill: "white",
+	                fill: "black",
+                	alpha: 0.9,
+                	visible: false,
+                	x: 300,
+                	y: 300
+            	});
+
+
+                circle.on('mousemove', function() {
                     var eventName = circle.getAttrs()['eventName'],
                 		mousePos = stage.getMousePosition();
                     document.body.style.cursor = 'pointer';
+                    circle.setStrokeWidth(3);
                     tooltip.setPosition(mousePos.x + 5, mousePos.y + 5);
                 	tooltip.text = eventName;
                 	tooltip.show();
+                	peopleLayer.draw();
                 	tooltipLayer.draw();
                 });
                 circle.on('mouseout', function(){
                     document.body.style.cursor = 'default';
+                    circle.setStrokeWidth(1);
                     tooltip.hide();
+                    peopleLayer.draw();
                 	tooltipLayer.draw();
                     // console.log("mouseout");
                 });
-
-                peopleLayer.add(circle);
-                var tooltip = new Kinetic.Text({
-                	text: "",
-	                fontFamily: "Calibri",
-	                fontSize: 12,
-	                padding: 5,
-	                textFill: "white",
-	                fill: "black",
-                	alpha: 0.75,
-                	visible: false
-            	});
+            	peopleLayer.add(circle);
             	tooltipLayer.add(tooltip);
             });
             stage.add(peopleLayer);
             stage.add(tooltipLayer);
         };
 
-        var mapLayer = new Kinetic.Layer();
+        var mapLayer = new Kinetic.Layer(),
+            peopleLayer = new Kinetic.Layer(),
+            tooltipLayer = new Kinetic.Layer();
         var imageObj = new Image();
         imageObj.onload = function() {
             var map = new Kinetic.Image({
