@@ -160,8 +160,10 @@ if (typeof jQuery !== 'undefined') {
 	});
 
 	function drawMap(data){
-		var activeCoords = [];
-		$.each(data['events'], function (k,v){
+		var activeCoords = [],
+            events = data['events'];
+        console.log(data);
+		$.each(events, function (k,v){
 			var place = v['place']['number'],
 				people = v['people'];
 			activeCoords.push(roomCoords[place]);
@@ -188,9 +190,16 @@ if (typeof jQuery !== 'undefined') {
                     stroke: 'black',
                     strokeWidth: 1
                 });
+                circle.setAttrs({
+                    "eventName":events[key]['eventName'],
+                    "location":events[key]['place'],
+                    "partic":events[key]["people"],
+                    "start":events[key]["start"],
+                    "end":events[key]["end"]
+                });
 
                 circle.on('mouseover', function() {
-                    console.log("mouseover");
+                    console.log(circle.getAttrs()['start']);
                 });
                 circle.on('mouseout', function(){
                     console.log("mouseout");
