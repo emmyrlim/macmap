@@ -102,6 +102,7 @@ if (typeof jQuery !== 'undefined') {
 	        "271" : [0,0],
 	        "298" : [0,0]
 		};
+	var activeRooms;
 
 
 	$("#createEvent").on("click", function(){
@@ -156,7 +157,8 @@ if (typeof jQuery !== 'undefined') {
 		$.each(results['events'], function(k,v){
 			var place = v['place']['number'],
 				people = v['people'];
-			console.log(place);
+			console.log(roomCoords[place]);
+			console.log(v);
 			// console.log(roomCoords['205']);
 		})
 	});
@@ -191,7 +193,7 @@ if (typeof jQuery !== 'undefined') {
       	imageObj.src = 'images/map_colored.png';
 
       	var peopleLayer = new Kinetic.Layer();
-      	$.each(roomCoords, function(key, val){
+      	$.each(activeRooms, function(key, val){
           	var circle = new Kinetic.Circle({
 		        x: stage.getWidth()/685 * val[0],
 		        y: stage.getHeight()/417 * val[1],
