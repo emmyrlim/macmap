@@ -155,18 +155,18 @@ if (typeof jQuery !== 'undefined') {
 	// should be 300000
 
 	$.subscribe("getEvents", function(e, results){
+		$('#container').empty();
+		drawMap(results)
+	});
+
+	function drawMap(data){
 		var activeCoords = [];
-		$.each(results['events'], function(k,v){
+		$.each(data['events'], function (k,v){
 			var place = v['place']['number'],
 				people = v['people'];
 			activeCoords.push(roomCoords[place]);
-			console.log(v);
 		})
-		$('#container').empty();
-		drawMap(activeCoords)
-	});
 
-	function drawMap(activeCoords){
 		var scale = 0.6,
 			sizeRatio = 417/685,
 			width = $(window).width()*scale,
@@ -205,8 +205,16 @@ if (typeof jQuery !== 'undefined') {
 		        stroke: 'black',
 		        strokeWidth: 1
 		    });
+
+		    circle.on('mouseover', function() {
+        		console.log("mouseover event");
+      		});
+      		circle.on('mouseout', function(){
+      			console.log("mouseout");
+      		});
+
 		    peopleLayer.add(circle);
-      	})
+      	});
       	stage.add(peopleLayer);
 
 	}
