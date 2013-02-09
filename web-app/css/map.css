@@ -1,3 +1,11 @@
+/*div#map
+{
+	display: block;
+	width: 685px;
+	height: 417px;
+	margin: 0 auto;
+  background-image: url('../images/map_colored.png');
+}*/
 
 #mapWrap{
     float:right;
@@ -27,27 +35,29 @@ div#container{
 	/*background: lightblue;*/
 }
 
-header {
+
+
+.wrapper {
+    width: 40%;
     margin: 0 5%;
 }
 
-header h1 {
-    display: inline-block;
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
 }
 
 .header-container {
     background: #FFB973;
-    padding: .025%;
-}
-
-.header-container #loginAcknowledge {
-    float: right;
-    font-size: 18px;
-    margin: 0.67em 0;
-}
-
-#filterBar {
-    float: left;
 }
 
 .filterContainer {
