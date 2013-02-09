@@ -54,15 +54,15 @@ if (typeof jQuery !== 'undefined') {
 	        "201" : [0,0],
 	        "297" : [0,0],
 	        "207" : [0,0],
-	        "284" : [0,0],
-	        "285" : [0,0],
-	        "286" : [0,0],
-	        "287" : [0,0],
-	        "283" : [0,0],
+	        "284" : [57,37],
+	        "285" : [57,87],
+	        "286" : [57,122],
+	        "287" : [57,155],
+	        "283" : [113,35],
 	        "282" : [0,0],
-	        "281" : [0,0],
-	        "278" : [0,0],
-	        "280" : [0,0],
+	        "281" : [158,75],
+	        "278" : [119,107],
+	        "280" : [158,115],
 	        "276" : [0,0],
 	        "274B" : [0,0],
 	        "274A" : [0,0],
@@ -129,7 +129,7 @@ if (typeof jQuery !== 'undefined') {
 		console.log(now.toJSON());
 
 		$.ajax({
-		    url:"event/getEvents",
+		    url:"event/getEventsByTime",
 		    dataType: 'json',
 		    data: {
 		        when: now.toJSON(),
@@ -146,6 +146,9 @@ if (typeof jQuery !== 'undefined') {
 	}, 3000)
 	// should be 300000
 
+	//TEMPDATA
+	var people = [[142,158], [258,165]];
+
 	$.subscribe("getEvents", function(e, results){
 		$('#events').html(
 			$.map( results, function (obj, index){
@@ -154,8 +157,64 @@ if (typeof jQuery !== 'undefined') {
 		);
 	});
 
-	function createPerson(){
+	function drawMap(){
+		var scale = 0.6,
+			sizeRatio = 417/685,
+			width = $(window).width()*scale,
+			height = width*sizeRatio;
+		var stage = new Kinetic.Stage({
+				container: 'container',
+				width: width,
+				height: height
+			});
+
+		var mapLayer = new Kinetic.Layer();
+		var imageObj = new Image();
+		imageObj.onload = function() {
+	        var map = new Kinetic.Image({
+		        x: 0,
+		        y: 0,
+		        image: imageObj,
+		        width: width,
+		        height: height
+	        });
+
+	        // add the shape to the layer
+	        mapLayer.add(map);
+	        // add the layer to the stage
+	        stage.add(mapLayer);
+      	};
+      	imageObj.src = 'images/map_colored.png';
+
+      	var peopleLayer = new Kinetic.Layer();
+      	$.each(people, function(key, val){
+      		console.log(val[0]);
+          	var circle = new Kinetic.Circle({
+		        x: stage.getWidth()/685 * val[0],
+		        y: stage.getHeight()/417 * val[1],
+		        radius: width*0.010,
+		        fill: 'red',
+		        stroke: 'black',
+		        strokeWidth: 1
+		    });
+		    peopleLayer.add(circle);
+      	})
+      	stage.add(peopleLayer);
 
 	}
+
+	$(window).on('resize',function(){
+		if(this.resizeTO) clearTimeout(this.resizeTO);
+		this.resizeTO = setTimeout(function(){
+			$(this).trigger('resizeEnd');
+		},500);
+	});
+
+	$(window).on('resizeEnd orientationchange',function(){
+		$('#container').empty();
+		drawMap();
+	});
+
+	drawMap();
 
 })(jQuery);

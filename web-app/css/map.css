@@ -7,15 +7,19 @@
   /* width and height can be anything, as long as they're equal */
 }
 
-div#map
+/*div#map
 {
 	display: block;
 	width: 685px;
 	height: 417px;
 	margin: 0 auto;
   background-image: url('../images/map_colored.png');
-}
+}*/
 
+div#container{
+  width: 60%;
+  margin: 0 auto;
+}
 
 #main {
 	margin: auto;
