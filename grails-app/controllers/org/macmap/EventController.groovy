@@ -9,21 +9,9 @@ class EventController {
     def index() { }
 
     def getEventsByTime() {
-        Date d
-        String where=params.where
-        String[] eventList=new String()[]
-
-        String t = params.when
-        t = t.split("T")[0].split("-")[0] + " " + t.split("T")[0].split("-")[1] + " " + t.split("T")[0].split("-")[2] + " " +t.split("T")[1].split(":")[0] + " " + t.split("T")[1].split(":")[1]
-
-        if (params.when!=null){
-            d = new Date().parse("yyyy MM dd HH mm", t)
-        }else{
-            d = new Date()
-        }
-        def results = Event.findAll {
-            end.after(d) && start.before(d)
-        }
+        String where = params.where
+        String when = params.when
+        def results = eventService.getEventsByTime(when)
 
         def formattedResults = [events:[]] //[eventName: results.eventName[0], start: results.start[0], end: results.end[0], place: results.place[0], people:results.people[0]]]]
         for (int i =0; i<results.size(); i++){
@@ -64,7 +52,7 @@ class EventController {
         if (eventList.size()>0){
             return (eventList) as JSON
         }else{
-            return "No events for "+pers.name+ " now"
+            return "No events for "+pers+ " now"
         }
 
     }
