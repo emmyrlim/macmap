@@ -10,7 +10,7 @@
 			<h1>Welcome to Grails</h1>
 			<embed src="${createLinkTo(dir:'images',file:'map.svg')}" type="image/svg+xml" />
 			<button id="createEvent">Create button</button>
-			<div class="circle">a</div>
+			<div class="circle"></div>
 			<div id="events"></div>
 		</div>
 	</body>
