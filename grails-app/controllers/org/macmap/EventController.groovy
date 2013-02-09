@@ -6,17 +6,27 @@ class EventController {
 
     def index() { }
 
-    def getCurrentEvents() {
-         def events=Event.list()
-        ArrayList<String> eventList=new ArrayList<String>()
-        Date d=new Date()
-        for(Event e: events){
+    def getEventsByTime() {
+        Date d
+        String where=params.where
+        String[] eventList=new String()[]
+        if (params.when!=null){
+            d = new Date().parse("dd MM yyyy, HH:mm", params.when)
+        }else{
+            d = new Date()
+        }
+        def results = Event.findAll {
+            end>= d && end && start <=d
+        }
+
+        return results as JSON
+
+        /*for(Event e: events){
+
+            if(params.where !=null&& where.equals(e.place.name) &&params.when!=null &&
             if (e.start<=d &&d<=e.end){
 
-            String s=e.getEventName()+" "+e.getStart()+ " "+e.getEnd()+" "+ e.getPlace().name
-            for(Person p: e.getPeople()){
-                s+=" "+p.name
-            }
+
             eventList.add(s)
         }
         }
@@ -24,7 +34,7 @@ class EventController {
             return (eventList) as JSON
         }else{
             return "No events now"
-        }
+        }*/
     }
     def getEventsByPerson(String pers){
         def events=Event.list()
@@ -47,6 +57,7 @@ class EventController {
         }
 
     }
+
 
     def makeEvent() {
         def who = params.who
