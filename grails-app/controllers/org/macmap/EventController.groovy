@@ -9,15 +9,22 @@ class EventController {
     def getEvents() {
          def events=Event.list()
         ArrayList<String> eventList=new ArrayList<String>()
+        Date d=new Date()
         for(Event e: events){
+            if (e.start<=d &&d<=e.end){
+
             String s=e.getEventName()+" "+e.getStart()+ " "+e.getEnd()+" "+ e.getPlace().name
             for(Person p: e.getPeople()){
                 s+=" "+p.name
             }
             eventList.add(s)
         }
-        print eventList.get(0)
-        render (eventList) as JSON
+        }
+        if (eventList.size()>0){
+            render (eventList) as JSON
+        }else{
+            render ""
+        }
 
     }
 
