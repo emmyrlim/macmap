@@ -14,9 +14,9 @@ if (typeof jQuery !== 'undefined') {
 		roomCoords = {
 			"241" : [458,150],
 	        "243" : [526,150],
-	        "245" : [0,0],
-	        "247" : [0,0],
-	        "249" : [0,0],
+	        "245" : [578,150],
+	        "247" : [628,150],
+	        "249" : [667,160],
 	        "248" : [0,0],
 	        "257" : [0,0],
 	        "259" : [0,0],
@@ -155,10 +155,10 @@ if (typeof jQuery !== 'undefined') {
 	// should be 300000
 
 	//TEMPDATA
-	var people = [[526,150], [568,150]];
+	var people = [[628,150], [667,160]];
 
 	$.subscribe("getEvents", function(e, results){
-		console.log(results['events']['event']);
+		console.log(results['events']);
 	});
 
 	function drawMap(){
