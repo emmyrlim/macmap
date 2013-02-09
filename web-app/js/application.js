@@ -150,12 +150,15 @@ var initFilterBar = function() {
 
 	function makeCall(){
 		var now = moment();
+        console.log($("#timeFilter").val());
 		$.ajax({
 		    url:"event/getEventsByTime",
 		    dataType: 'json',
 		    data: {
-		        when: now.toJSON()
+		        when: now.toJSON(),
+                cal: $("#timeFilter").val()
 		    },
+
 		    success: function(data) {
 		        $.publish("getEvents", data)
 		    },

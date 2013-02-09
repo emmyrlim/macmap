@@ -10,16 +10,31 @@ class EventService {
      */
     def getEventsByTime(String time) {
         String t = time
-        t = t.split("T")[0].split("-")[0] + " " + t.split("T")[0].split("-")[1] + " " + t.split("T")[0].split("-")[2]+ " " +t.split("T")[1].split(":")[0] + " " + t.split("T")[1].split(":")[1]
+
         Date d
-        if (time!=null){
-            d = new Date().parse("yyyy MM dd HH mm", t)
-        }else{
-            d = new Date()
+        try{
+            d= new Date().parse("MM/dd/yyyy HH:mm", t)
+        } catch (Exception e) {
+            t = t.split("T")[0].split("-")[0] + " " + t.split("T")[0].split("-")[1] + " " + t.split("T")[0].split("-")[2]+ " " +t.split("T")[1].split(":")[0] + " " + t.split("T")[1].split(":")[1]
+            if (time!=null){
+                d = new Date().parse("yyyy MM dd HH mm", t)
+            }else{
+                d = new Date()
+            }
         }
-        def results = Event.findAll {
-            end.after(d) && start.before(d)
+        //def results = Event.withCriteria {
+        //    lt('start',d)
+        //    gt('end',d)
+        //}
+        def results =[]
+        for (e in Event.findAll()){
+            //println(e)
+            //println(e.start)
+            //println(e.end)
+            if (e.start.getTime() < d.getTime() && e.end.getTime() <d.getTime()) results.add(e)
         }
+        //println(d)
+        //println(results)
 
         return results
     }

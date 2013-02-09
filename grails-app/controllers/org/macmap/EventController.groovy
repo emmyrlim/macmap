@@ -11,7 +11,14 @@ class EventController {
     def getEventsByTime() {
         String where = params.where
         String when = params.when
-        def results = eventService.getEventsByTime(when)
+        String cal = params.cal
+        println(params.toMapString())
+        def results;
+        if (!cal.equals("")){
+            results = eventService.getEventsByTime(cal)
+        } else {
+            results = eventService.getEventsByTime(when)
+        }
 
         def formattedResults = [events:[]] //[eventName: results.eventName[0], start: results.start[0], end: results.end[0], place: results.place[0], people:results.people[0]]]]
         for (int i =0; i<results.size(); i++){
