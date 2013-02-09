@@ -35,11 +35,11 @@
                 </tr>
                 <tr>
                     <td><label for="what">What</label></td>
-                    <td><input type="text" name="who" id="what"/></td>
+                    <td><input type="text" name="what" id="what"/></td>
                 </tr>
                 <tr>
                     <td><label for="where">Where</label></td>
-                    <td><input type="text" name="who" id="where"/></td>
+                    <td><input type="text" name="where" id="where"/></td>
                 </tr>
                 <tr>
                     <td><label for="start">Start</label></td>
@@ -50,7 +50,7 @@
                     <td><input type="text" name="end" id="end"/></td>
                 </tr>
             </table>
-            <g:submitButton name="Submit" vale="submit" />
+            <g:submitButton name="Submit" value="submit" />
         </form>
 
     </div>

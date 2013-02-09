@@ -97,7 +97,7 @@ class BootStrap {
 
         Date d1=new Date()
         Date d2=new Date()
-        Event e=new Event(eventName: "Macathon", place: or298, start: d1, end: d2)
+        Event e=new Event(eventName: "Macathon", place: or256, start: d1, end: d2)
         e.addToPeople(new Person(name: "Grand Dictator"))
         e.addToPeople(new Person(name: "Master of .pptx"))
         e.addToPeople(new Person(name: "Cartographer"))

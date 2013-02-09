@@ -10,9 +10,9 @@ class EventService {
             return 0
         }
 
-
+        System.out.println("where: " + where)
         new Event(eventName:  what, start:  start, end: end, place: new Place(name:  where),
-                people: who.split(",").collect( { new Person(name: it) } )).save(failOnError: true)
+                people: who.split(", ").collect( { new Person(name: it) } )).save(failOnError: true)
 
         return 1
     }
