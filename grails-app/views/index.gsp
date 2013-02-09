@@ -19,7 +19,9 @@
 	            </header>
         	</div>
 			<div id="main">
-				<div id="map"></div>
+				<div id="wrapMap">
+					<div id="container"></div>
+				</div>
 				<button id="createEvent">Create new event</button>
 				<div id="events"></div>
 			</div>
